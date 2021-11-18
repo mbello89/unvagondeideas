@@ -1,0 +1,256 @@
+/* configuracion menu nav */
+.navbar-personal {
+  background-color: #f7ede2;
+}
+
+.navItems {
+  font-size: 16px;
+}
+
+.logo {
+  width: 45px;
+  height: 40px;
+  border-radius: 200px;
+}
+
+/* seccion inicio */
+.inicioContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenInicio {
+  background-image: url("/src/img/vagon.jpg");
+  background-size: cover;
+}
+
+.imgConfig {
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.elementosContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.parrafoInicio {
+  display: flex;
+  align-content: center;
+  margin-top: 25%;
+}
+.parrafoInicio p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  width: auto;
+  text-align: justify;
+  font-size: 16px;
+}
+
+/* seccion nosotras */
+.img-nos {
+  width: 300px;
+  height: 300px;
+}
+
+.nombre {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* seccion productos */
+.text-prod-deco {
+  color: #272725;
+  font-weight: bold;
+}
+
+/* inicio seccion faqs */
+.faq {
+  color: #272725;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  padding: 8px;
+}
+
+.btn-personal {
+  background-color: #ddbea9;
+}
+
+/* inicio seccion contacto */
+.text-h3 {
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.text-contacto {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: oblique;
+  margin-bottom: 0px;
+}
+
+.text-social-icons {
+  align-items: center;
+  align-content: center;
+  margin-bottom: 0px;
+}
+
+.text-redes-sociales {
+  font-weight: bold;
+}
+
+.social-icons {
+  width: 35px;
+  margin: 10px;
+}
+
+.iconosRedesSociales img {
+  width: 35px;
+  margin: 5px;
+}
+
+.submit-btn {
+  background-color: #ddbea9;
+}
+
+/* footer */
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.footer-basic li {
+  padding: 0 10px;
+}
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footerContainer {
+  background-color: #f7ede2;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.transform-si:hover {
+  transform: scale(1.03);
+  transition: all 0.7s;
+}
+
+/* ----- CSS general de paginas de productos ------- */
+.prodContainer {
+  background-color: #f8f8f4;
+}
+
+.imageGrid {
+  --gap: 20px;
+  --num-col: 3;
+  --row-heigth: 400px;
+  box-sizing: border-box;
+  padding: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(var(--num-col), 1fr);
+  grid-auto-rows: var(--row-heigth);
+  gap: var(--gap);
+  justify-content: center;
+  justify-items: center;
+}
+
+.imageGrid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .imageGrid {
+    --num-col: 2;
+    --row-height: 300px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .imageGrid {
+    --num-col: 1;
+    --row-height: 200px;
+  }
+}
+.imagen:hover {
+  transform: scale(1.03);
+  transition: all 0.7s;
+}
+
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------- CSS General del index ---------- */
+html {
+  font-size: 13.3px;
+  /* 13.3pt = 16px */
+}
+
+h1 {
+  color: #cb997e;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.tituloSecundario {
+  color: #ddbea9;
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

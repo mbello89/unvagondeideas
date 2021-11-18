@@ -1,0 +1,38 @@
+@import 'colors';
+@import 'fonts';
+
+/* seccion inicio */
+
+.inicioContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenInicio {
+    background-image: url("/src/img/vagon.jpg");
+    background-size: cover;
+}
+
+.imgConfig {
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.elementosContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafoInicio {
+    display: flex;
+    align-content: center;
+    margin-top: 25%;
+    p {
+        font-family: $roboto-font;
+        font-weight: bold;
+        width: auto;
+        text-align: justify;
+        font-size: 16px;
+    }
+}

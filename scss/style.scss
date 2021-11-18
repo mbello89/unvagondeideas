@@ -1,0 +1,49 @@
+@import 'colors';
+@import 'fonts';
+@import 'nav';
+@import 'inicio';
+@import 'nosotras';
+@import 'prod';
+@import 'faq';
+@import 'contact';
+@import 'footer';
+@import 'pagesext';
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------- CSS General del index ---------- */
+
+
+html {
+    font-size: 13.3px; /* 13.3pt = 16px */
+}
+
+h1 {
+    color: $color-h1;
+    font-size: 2.5rem;
+    font-family: $poppins-font;
+    font-weight: bold;
+}
+
+.tituloSecundario {
+    color: $color-h2-btn;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: $monserrat-font;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+

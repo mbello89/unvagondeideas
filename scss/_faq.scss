@@ -1,0 +1,16 @@
+@import 'colors';
+@import 'fonts';
+
+/* inicio seccion faqs */
+
+.faq {
+    color: $color-text;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: $roboto-font;
+    padding: 8px;
+}
+
+.btn-personal {
+    background-color: $color-h2-btn;
+}
