@@ -66,6 +66,11 @@
   font-weight: bold;
 }
 
+.img-prod {
+  width: 300px;
+  height: auto;
+}
+
 /* inicio seccion faqs */
 .faq {
   color: #272725;
