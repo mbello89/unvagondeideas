@@ -20,7 +20,7 @@
 }
 
 .imagenInicio {
-  background-image: url("./src/img/vagon.JPG");
+  background-image: url("/src/img/vagon.JPG");
   background-size: cover;
 }
 
