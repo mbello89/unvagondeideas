@@ -20,7 +20,7 @@
 }
 
 .imagenInicio {
-  background-image: url("/src/img/vagon.JPG");
+  background-image: url("https://github.com/mbello89/unvagondeideas/blob/master/src/img/vagon.jpg?raw=true");
   background-size: cover;
 }
 
